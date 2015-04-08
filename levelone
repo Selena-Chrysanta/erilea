@@ -30,7 +30,7 @@ time.sleep(5)
 
 print("Good morning,", playername,". You have slept well and are ready to face the dragon.")
 time.sleep(1)
-print("You can proceed now with your dull sword, or you can begin the Quest For a Better Sword.")
+print("You can proceed now with your dull sword, or you can begin the Quest For a Blacksmith to find a better sword.")
 print("If you would like to proceed with your dull sword, type 'proceed'.")
 print("If you would like to go find a sharper sword, type 'sword'.")
 swordquest = input("Proceed or sword?")
@@ -38,3 +38,8 @@ swordquest = input("Proceed or sword?")
 if swordquest == "sword":
                 print("Your secret code is 3079X. Type that into the blacksmith file to go on your quest.")
                 #open("blacksmith.py")
+elif swordquest == "proceed":
+                print("You enter the dark cave and descend deeper and deeper until you see a red glow.")
+
+else:
+                print("Please answer the question correctly.")
